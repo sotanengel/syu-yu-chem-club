@@ -91,7 +91,16 @@ footer {
         left: 0;
         z-index: 1; /* 他の要素より手前に表示 */
     }
+    
     .button {
         margin-bottom: 50px; /* ボタンの下にスペースを追加 */
+    }
+
+    .logo {
+    width: 100px; /* ロゴ画像の幅 */
+    height: 100px; /* ロゴ画像の高さ */
+    position: absolute; /* 絶対位置指定 */
+    top: 0; /* 上端からの距離 */
+    left: 0; /* 左端からの距離 */
     }
 }
