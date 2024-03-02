@@ -50,3 +50,22 @@ footer {
     max-width: 100%;
     height: auto;
 }
+
+@media only screen and (max-width: 414px) {
+    /* iPhone 8の場合 */
+    header h1 {
+        font-size: 20px;
+    }
+    section p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 428px) {
+    /* iPhone 13 Proの場合 */
+    header h1 {
+        font-size: 24px;
+    }
+    section p {
+        font-size: 16px;
+    }
+}
