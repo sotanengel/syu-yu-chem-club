@@ -67,7 +67,10 @@ footer {
         position: fixed;
         bottom: 0;
         left: 0;
-        z-index: 1000; /* ボタンが重ならないようにする */
+        z-index: 1; /* 他の要素より手前に表示 */
+    }
+    .button {
+        margin-bottom: 50px; /* ボタンの下にスペースを追加 */
     }
 }
 @media only screen and (max-width: 428px) {
@@ -86,6 +89,9 @@ footer {
         position: fixed;
         bottom: 0;
         left: 0;
-        z-index: 1000; /* ボタンが重ならないようにする */
+        z-index: 1; /* 他の要素より手前に表示 */
+    }
+    .button {
+        margin-bottom: 50px; /* ボタンの下にスペースを追加 */
     }
 }
